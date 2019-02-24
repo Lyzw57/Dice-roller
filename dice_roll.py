@@ -13,7 +13,7 @@
 
 def roll_the_dice(dice: str):
     """
-    non bonus version.
+    bonus version.
     """
     from random import randint
     amount, size = dice.split("d")
@@ -27,7 +27,7 @@ def roll_the_dice(dice: str):
     for each in results:
         result += " "
         result += str(each)
-        
+
     return result
 
 if __name__ == "__main__":
